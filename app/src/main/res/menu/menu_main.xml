@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/video"
+        android:title="@string/video"
+        app:showAsAction="always"
+        android:icon="@android:drawable/presence_video_online"/>
+
+    <!--<item
+        android:id="@+id/scrollControl"
+        android:title="@string/scroll_control"
+        app:showAsAction="always"
+        app:actionLayout="@layout/scroll_speed" />-->
+
+    <!--<item
+        android:id="@+id/sizeControl"
+        android:title="@string/size_control"
+        app:showAsAction="ifRoom"
+        app:actionLayout="@layout/text_size" />-->
+
+</menu>

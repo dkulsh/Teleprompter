@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sizeControlTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/size_control"
+
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:padding="15dip"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/sizeValueTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:textColor="@color/grey_light"
+            android:padding="15dip"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/smallerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/smaller"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="reduceText"
+        android:contentDescription="@string/small_text_desc" />
+
+    <ImageButton
+        android:id="@+id/biggerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bigger"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="increaseText"
+        android:contentDescription="@string/big_text_desc" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollLayout"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/material_blue_grey_800">
+
+    <ImageButton
+        android:id="@+id/slowScroll"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/walking"
+        android:layout_weight="1" />
+
+    <!--<SeekBar
+        android:id="@+id/changeScrollSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+    <ImageButton
+        android:id="@+id/fastScroll"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/running"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_play"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:id="@+id/directionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/up"
+        android:layout_weight="1"/>
+
+</LinearLayout>
